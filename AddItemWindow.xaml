@@ -1,0 +1,20 @@
+﻿<Window x:Class="Kontakt.AddItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Item" Height="200" Width="350">
+    <Grid>
+        <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <TextBox Name="txtName" HorizontalAlignment="Left" Margin="100,10,0,0" Width="200"/>
+
+        <Label Content="Age:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0"/>
+        <TextBox Name="txtAge" HorizontalAlignment="Left" Margin="100,40,0,0" Width="200"/>
+
+        <Label Content="Email:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,70,0,0"/>
+        <TextBox Name="txtEmail" HorizontalAlignment="Left" Margin="100,70,0,0" Width="200"/>
+
+        
+
+        <Button Content="Add" Click="OnAddClicked" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Cancel" Click="OnCancelClicked" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Width="75"/>
+    </Grid>
+</Window>
